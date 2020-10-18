@@ -1,0 +1,18 @@
+.school__image {
+    background: url("https://i.postimg.cc/qRPVtnM0/school-image.png");
+    width: 1000px;
+    height: 400px;
+}
+
+.school__title {
+    font-weight: 400;
+    font-family: var(--HeaderFont);
+    font-size: 33px;
+}
+
+.school__story {
+    padding-right: 20px;
+    padding-bottom: 70px;
+    color: rgb(53, 53, 53);
+    font-family: var(--PharagraphFont);
+}

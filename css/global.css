@@ -1,0 +1,30 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    width: 1200px;
+    box-shadow: 0 0 15px 1px gray;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 200px 1000px;
+}
+
+.title {
+    font-weight: 400;
+    font-family: var(--HeaderFont);
+    font-size: 33px;
+    padding-left: 30px;
+}
+
+:root {
+    --red: #99210F;
+    --HeaderFont: 'Epilogue', sans-serif;
+    --PharagraphFont: 'Piazzolla', serif;
+}
