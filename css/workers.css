@@ -1,4 +1,5 @@
 .workers__list-item {
     font-size: 25px;
     font-family: var(--PharagraphFont);
+    padding-bottom: 5px;
 }

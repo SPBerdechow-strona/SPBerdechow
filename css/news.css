@@ -1,0 +1,19 @@
+.news__container {
+    padding-left: 30px;
+    margin-bottom: 70px;
+}
+
+.news__title {
+    font-size: 34px;
+}
+
+.news__image {
+    max-height: 800px;
+    max-width: 900px;
+    object-fit: contain;
+}
+
+.news__pharagraph {
+    font-size: 18px;
+    font-family: var(--PharagraphFont);
+}
